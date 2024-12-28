@@ -1,7 +1,7 @@
 <script>
     import { dues } from '$lib/utils/helper';
     let one, oneOne, oneTwo;
-  //  let two, twoOne, twoTwo;
+    let two, twoOne, twoTwo;
   //  let three, threeOne, threeTwo;
   //  let four, fourOne, fourTwo,fourThree,fourThreeOne fourFour,fourFive,fourFiveOne,fourFiveTwo,fourSix,fourSeven,fourEight,fourNine;
   //  let five, fiveOne;
@@ -102,4 +102,7 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Overview</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Executive Committee</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Living Constitution</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: League Financing</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 League Fee</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Prize Money</h4>
 </div>
