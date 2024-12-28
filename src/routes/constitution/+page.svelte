@@ -162,4 +162,66 @@
         <p>The EFFL no longer charges league fees.</p>
         <p>Previously these covered the cost of the league and generated a small prize fund.</p>
     </div>
+<h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
+        <p>There are currently no league fees</p>
+    <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
+        <p>There are no monetary prizes</p>
+    
+    
+    
+
+    
+    <h2 class="sectionHeading" bind:this={three}>Section 3 League Setup and Competition</h2>
+        <p></p>
+    <h3 class="subSectionHeading" bind:this={threeOne}>3.1 Playoff Rankings</h3>
+        <p></p>
+    <h3 class="subSectionHeading" bind:this={threeTwo}>3.2 Playoffs</h3>
+        <p></p>
+    <h2 class="sectionHeading" bind:this={four}>Section 4 Rosters and Lineups</h2> 
+        <p></p>
+        <h3 class="subSectionHeading" bind:this={fourOne}>4.1 The Draft</h3>
+            <p></p>
+        <h3 class="subSectionHeading" bind:this={fourTwo}>4.2 Free Agency</h3>
+            <p></p>
+        <h3 class="subSectionHeading" bind:this={fourThree}>4.3 Trades</h3>
+            <p></p>
+            <h4 bind:this={fourThreeOne}>4.3.1 Trade Veto</h4>
+                <div class="subBlock">
+                <p></p>
+                </div>
+        <h3 class="subSectionHeading" bind:this={fourFour}>4.4 Injured Reserve</h3>
+            <p></p>
+        <h3 class="subSectionHeading" bind:this={fourFive}>4.5 Starting Lineups</h3>
+            <p></p>
+            <h4 bind:this={fourFiveOne}>4.5.1 Position Designation</h4>
+                <div class="subBlock">
+                <p></p>
+                </div>
+            <h4 bind:this={fourFiveTwo}>4.5.2 Substitutions</h4>
+                <div class="subBlock">
+                <p></p>
+                </div>
+        <h3 class="subSectionHeading" bind:this={fourSix}>4.6 Bye Week Penalties</h3>
+            <p></p>
+        <h3 class="subSectionHeading" bind:this={fourSeven}>4.7 Active Ownership Requirements</h3>
+            <p></p>
+        <h3 class="subSectionHeading" bind:this={fourEight}>4.8 Anti-Tank Rules</h3>
+            <p></p>
+        <h3 class="subSectionHeading" bind:this={fourNine}>4.9 Rescheduled Games</h3>
+            <p></p>
+    <h2 class="sectionHeading" bind:this={five}>Section 5 Scoring</h2> 
+            <p></p>
+        <h3 class="subSectionHeading" bind:this={fiveOne}>5.1 Points Total and Final Score</h3>
+            <p></p>
+   
+    <h2 class="sectionHeading" bind:this={six}>Section 6 Offseason</h2>
+            <p></p>
+        <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
+            <p>Managers who fail to adhere to the rules above and spirit of the league will be removed and replaced. League fees will be refunded, but time involved with the league will not be reimbursed under any circumstances.</p>
+    
+        <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
+            <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a long term commitment and will be very active within the league.</p>
+    
+        <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
+            <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager may be offered reduced or waived fees</p>
 </div>
