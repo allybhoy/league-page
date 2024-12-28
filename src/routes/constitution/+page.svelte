@@ -1,9 +1,9 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneTwo, oneThree,oneThreeOne,oneThreeTwo,oneThreeThree,oneThreeFour,oneThreeFive oneFour;
+    let one, oneOne, oneTwo;
     let two, twoOne, twoTwo;
     let three, threeOne, threeTwo;
-    let four, fourOne, fourTwo,fourThree, fourFour,fourFive,fourFiveOne,fourFiveTwo,fourSix,fourSeven,fourEight,fourNine,fourTen;
+    let four, fourOne, fourTwo,fourThree,fourThreeOne fourFour,fourFive,fourFiveOne,fourFiveTwo,fourSix,fourSeven,fourEight,fourNine;
     let five, fiveOne;
     let six,sixOne,sixTwo,sixThree;
 
@@ -102,13 +102,6 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Overview</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Executive Committee</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Living Constitution</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.3.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.3.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.3.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.3.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.3.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.4 Waiver Wire</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: League Financing</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 League Fee</h4>
