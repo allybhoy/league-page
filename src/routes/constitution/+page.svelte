@@ -157,4 +157,13 @@
         <p>It is important to note that this is a living, breathing constitution that will change and evolve over the lifetime of this league.</p>
         <p>Changes will happen between seasons as often as possible and will be effective from that point moving forward.</p>
         <p>If you have suggestions for changes, please submit them to one of the executive committee members.</p>
+<h2 class="sectionHeading" bind:this={Two}>Section 2 League Financing</h2>    
+    
+        <p>The EFFL no longer charges league fees.</p>
+        <p>Previously these covered the cost of the league and generated a small prize fund.</p>
+
+    <h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
+        <p>There are currently no league fees</p>
+    <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
+        <p>There are no monetary prizes</p>
 </div>
