@@ -1,11 +1,12 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneTwo, oneThree,oneThreeOne,oneThreeTwo,oneThreeThree,oneThreeFour,oneThreeFive oneFour;
-    let two, twoOne, twoTwo;
-    let three, threeOne, threeTwo;
-    let four, fourOne, fourTwo,fourThree, fourFour,fourFive,fourFiveOne,fourFiveTwo,fourSix,fourSeven,fourEight,fourNine,fourTen;
+    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
+    let two, twoOne, twoTwo, twoThree;
+    let three, threeOne;
+    let four, fourOne, fourTwo;
     let five, fiveOne;
-    let six,sixOne,sixTwo,sixThree;
+    let six, sixOne, sixTwo, sixThree;
+    let seven, sevenOne, sevenTwo, sevenThree;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -95,131 +96,98 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">EARLSTON FANTASY FOOTBALL LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Overview</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Executive Committee</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Living Constitution</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.3.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.3.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.3.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.3.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.3.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.4 Waiver Wire</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: League Financing</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 League Fee</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Prize Money</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: League Setup and Competition</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Playoff Rankings</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>3.2 Playoff(s)</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Rosters and Lineups</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 The Draft</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Free Agency</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>4.3 Trades</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(fourThreeOne)}>4.3.1 Trade veto</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFour)}>4.4 Injured Reserve</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFive)}>4.5 Starting Lineups</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(fourFiveOne)}>4.5.1 Position Designations </h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(fourFiveTwo)}>4.5.2 Substitutions </h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSix)}>4.6 Bye Week Penalties</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.7 Active Ownership Requirements</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.8 Anti-Tank Rules</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.9 Rescheduled Games</h4>
-        
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Scoring System</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Points Totals and Final Score</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Offseason</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+    
+    
     <hr />
     
-//    <h2 class="sectionHeading" bind:this={one}>Section 1 League Overview</h2>
-//    <div class="subBlock">
-//        <p>Welcome to EFFL, the Earlston Fantasy Football League.</p>
-//        <p>This is a 12-team league formed in 2013 in the <a href="http://www.redlionearlston.co.uk/">Red Lion Pub</a> (Earlston) by Chris Powell and Alastair Reid.</p>
-//        <p>The league is designed to be fun with the winner receiving the Earlston Fantasy Football trophy.</p>
-//
-//        <p>The league is designed to be a competition between owners, but it not a cut-throat league where anything goes.</p>
-//        <p>The rules described below are designed to act as a guideline for overall league play, and any disputes will be handled by the executive committee of the league.</p>
-//        <p>Please remember that the overall goal of this league is to have fun and enjoy the game of football.</p>
-//        <p>If you have any question or concerns, please do not hesitate to ask.</p>
-//    </div>
-//
-//    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Executive Committee</h3>
-//    <div class="subBlock">
-//        <p>The executive committee for EFFL consists of:</p>
-//            <ul>
-// 	            <li>Commissioner Alastair Reid</li>
-// 	            <li>Co-Commissioner Chris Powell</li>
-//            </ul>
-//        <p>The executive committee will be responsible for resolving all disputes that are not expressly covered by this constitution.</p>
-//        <p>If a committee member is involved in the dispute, that member will excuse themselves from the decision process.</p>
-//        <p>While all owners are encouraged to submit suggestions to the committee, the committee's decision on all matters is final.</p>
-//        <p>The executive committee will also have access to independent arbitration from external fantasy football commissioners known to the commissioner.</p>
-//    </div>
-//
-//    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Living Constitution</h3>
-//    <div class="subBlock">
-//        <p>It is important to note that this is a living, breathing constitution that will change and evolve over the lifetime of this league.</p>
-//        <p>Changes will happen between seasons as often as possible and will be effective from that point moving forward.</p>
-//        <p>If you have suggestions for changes, please submit them to one of the executive committee members.</p>
-//    </div>
-//
-//    <h2 class="sectionHeading" bind:this={Two}>Section 2 League Financing</h2>    
-//    <div class="subBlock">
-//        <p>The EFFL no longer charges league fees.</p>
-//        <p>Previously these covered the cost of the league and generated a small prize fund.</p>
-//    </div>
-//    <h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
-//    <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
-//
-//    <h2 class="sectionHeading" bind:this={Three}>Section 3 League Setup and Competition</h2> 
-//    <h3 class="subSectionHeading" bind:this={threeOne}>3.1 Playoff Rankings</h3>
-//    <h3 class="subSectionHeading" bind:this={threeTwo}>3.2 Playoffs</h3>
-//
-//    <h2 class="sectionHeading" bind:this={Four}>Section 4 Rosters and Lineups</h2> 
-//        <h3 class="subSectionHeading" bind:this={fourOne}>4.1 The Draft</h3>
-//        <h3 class="subSectionHeading" bind:this={fourTwo}>4.2 Free Agency</h3>
-//        <h3 class="subSectionHeading" bind:this={fourThree}>4.3 Trades</h3>
-//            <h4 bind:this={fourThreeOne}>4.3.1 Trade Veto</h4>
-//        <h3 class="subSectionHeading" bind:this={fourFour}>4.4 Injured Reserve</h3>
-//        <h3 class="subSectionHeading" bind:this={fourFive}>4.5 Starting Lineups</h3>
-//            <h4 bind:this={fourFiveOne}>4.5.1 Position Designation</h4>
-//            <h4 bind:this={fourFiveTwo}>4.5.2 Substitutions</h4>
-//        <h3 class="subSectionHeading" bind:this={fourSix}>4.6 Bye Week Penalties</h3>
-//        <h3 class="subSectionHeading" bind:this={fourSeven}>4.7 Active Ownership Requirements</h3>
-//        <h3 class="subSectionHeading" bind:this={fourEight}>4.8 Anti-Tank Rules</h3>
-//        <h3 class="subSectionHeading" bind:this={fourNine}>4.9 Rescheduled Games</h3>
-//    
-//    <h2 class="sectionHeading" bind:this={Five}>Section 5 Scoring</h2> 
-//        <h3 class="subSectionHeading" bind:this={fiveOne}>5.1 Points Total and Final Score</h3>
-//   
-//    <h2 class="sectionHeading" bind:this={six}>Section 6 Offseason</h2>
-//    
-//        <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-//            <p>Managers who fail to adhere to the rules above and spirit of the league will be removed and replaced. League fees will be refunded, but time involved with the league will not be reimbursed under any circumstances.</p>
-//   
-//        <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-//            <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a long term commitment and will be very active within the league.</p>
-//    
-//        <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-//            <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager may be offered reduced or waived fees</p>
+    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
+    
+    <p>28 Total Players</p>
+    
+    <p class="underscore">Starters</p>
+    <ul>
+        <li>QB</li>
+        <li>RB</li>
+        <li>RB</li>
+        <li>WR</li>
+        <li>WR</li>
+        <li>TE</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>FLEX (RB/WR)</li>
+        <li>D/ST</li>
+        <li>K</li>
+    </ul>
+    
+    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+
+    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    
+        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
+        
+        <div class="subBlock">
+            <table class="positionMaximums">
+                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
+                <tr><td>RB</td><td class="right">20</td></tr>
+                <tr><td>WR</td><td class="right">20</td></tr>
+                <tr><td>TE</td><td class="right">10</td></tr>
+                <tr><td>D/ST</td><td class="right">3</td></tr>
+                <tr><td>K</td><td class="right">3</td></tr>
+            </table>
+        </div>
 
 
-
-
-
-<h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
+    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
+    
+    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    
+    <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
         <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
         
