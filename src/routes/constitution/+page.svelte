@@ -149,7 +149,7 @@
     </div>
 
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Executive Committee</h3>
-    <div class="subBlock">
+    
         <p>The executive committee for EFFL consists of:</p>
             <ul>
  	            <li>Commissioner Alastair Reid</li>
@@ -159,46 +159,69 @@
         <p>If a committee member is involved in the dispute, that member will excuse themselves from the decision process.</p>
         <p>While all owners are encouraged to submit suggestions to the committee, the committee's decision on all matters is final.</p>
         <p>The executive committee will also have access to independent arbitration from external fantasy football commissioners known to the commissioner.</p>
-    </div>
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Living Constitution</h3>
-    <div class="subBlock">
+   
         <p>It is important to note that this is a living, breathing constitution that will change and evolve over the lifetime of this league.</p>
         <p>Changes will happen between seasons as often as possible and will be effective from that point moving forward.</p>
         <p>If you have suggestions for changes, please submit them to one of the executive committee members.</p>
-    </div>
+    
 
     <h2 class="sectionHeading" bind:this={Two}>Section 2 League Financing</h2>    
-    <div class="subBlock">
+    
         <p>The EFFL no longer charges league fees.</p>
         <p>Previously these covered the cost of the league and generated a small prize fund.</p>
-    </div>
+
     <h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
+        <p></p>
     <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
-
-    <h2 class="sectionHeading" bind:this={Three}>Section 3 League Setup and Competition</h2> 
+        <p></p>
+    <h2 class="sectionHeading" bind:this={Three}>Section 3 League Setup and Competition</h2>
+        <p></p>
     <h3 class="subSectionHeading" bind:this={threeOne}>3.1 Playoff Rankings</h3>
+        <p></p>
     <h3 class="subSectionHeading" bind:this={threeTwo}>3.2 Playoffs</h3>
-
+        <p></p>
     <h2 class="sectionHeading" bind:this={Four}>Section 4 Rosters and Lineups</h2> 
+        <p></p>
         <h3 class="subSectionHeading" bind:this={fourOne}>4.1 The Draft</h3>
+            <p></p>
         <h3 class="subSectionHeading" bind:this={fourTwo}>4.2 Free Agency</h3>
+            <p></p>
         <h3 class="subSectionHeading" bind:this={fourThree}>4.3 Trades</h3>
+            <p></p>
             <h4 bind:this={fourThreeOne}>4.3.1 Trade Veto</h4>
+                <div class="subBlock">
+                <p></p>
+                </div>
         <h3 class="subSectionHeading" bind:this={fourFour}>4.4 Injured Reserve</h3>
+            <p></p>
         <h3 class="subSectionHeading" bind:this={fourFive}>4.5 Starting Lineups</h3>
+            <p></p>
             <h4 bind:this={fourFiveOne}>4.5.1 Position Designation</h4>
+                <div class="subBlock">
+                <p></p>
+                </div>
             <h4 bind:this={fourFiveTwo}>4.5.2 Substitutions</h4>
+                <div class="subBlock">
+                <p></p>
+                </div>
         <h3 class="subSectionHeading" bind:this={fourSix}>4.6 Bye Week Penalties</h3>
+            <p></p>
         <h3 class="subSectionHeading" bind:this={fourSeven}>4.7 Active Ownership Requirements</h3>
+            <p></p>
         <h3 class="subSectionHeading" bind:this={fourEight}>4.8 Anti-Tank Rules</h3>
+            <p></p>
         <h3 class="subSectionHeading" bind:this={fourNine}>4.9 Rescheduled Games</h3>
+            <p></p>
     
     <h2 class="sectionHeading" bind:this={Five}>Section 5 Scoring</h2> 
+            <p></p>
         <h3 class="subSectionHeading" bind:this={fiveOne}>5.1 Points Total and Final Score</h3>
+            <p></p>
    
     <h2 class="sectionHeading" bind:this={six}>Section 6 Offseason</h2>
-    
+            <p></p>
         <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
             <p>Managers who fail to adhere to the rules above and spirit of the league will be removed and replaced. League fees will be refunded, but time involved with the league will not be reimbursed under any circumstances.</p>
     
