@@ -214,7 +214,7 @@
     
         <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
             <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager may be offered reduced or waived fees</p>
-
+</div>
 //<h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
 //    <div class="subBlock">
 //        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
