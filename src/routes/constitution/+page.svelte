@@ -4,8 +4,8 @@
     let two, twoOne, twoTwo;
     let three, threeOne, threeTwo;
     let four, fourOne, fourTwo,fourThree,fourThreeOne, fourFour,fourFive,fourFiveOne,fourFiveTwo,fourSix,fourSeven,fourEight,fourNine;
-   // let five, fiveOne;
-   // let six,sixOne,sixTwo,sixThree;
+    let five, fiveOne;
+    let six,sixOne,sixTwo,sixThree;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -121,5 +121,11 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSeven)}>4.7 Active Ownership Requirements</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourEight)}>4.8 Anti-Tank Rules</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourNine)}>4.9 Rescheduled Games</h4>
-
+     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Scoring System</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Points Totals and Final Score</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Offseason</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+    <hr />
    </div>
