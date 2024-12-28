@@ -121,9 +121,9 @@
             <h5 class="noUnderscore clickable" on:click={() => goToSection(fourFiveOne)}>4.5.1 Position Designations </h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(fourFiveTwo)}>4.5.2 Substitutions </h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSix)}>4.6 Bye Week Penalties</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.7 Active Ownership Requirements</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.8 Anti-Tank Rules</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.9 Rescheduled Games</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSeven)}>4.7 Active Ownership Requirements</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourEight)}>4.8 Anti-Tank Rules</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourNine)}>4.9 Rescheduled Games</h4>
         
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Scoring System</h3>
     
