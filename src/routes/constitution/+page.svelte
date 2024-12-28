@@ -252,4 +252,12 @@
  	            <td>Total Offensive Points</td>
             </tr>
         </p>
+    <h3 class="subSectionHeading" bind:this={threeTwo}>3.2 Playoffs</h3>
+        <p>After the completion of the regular season, six teams will make the playoffs.</p>
+        <p>These are selected by order of record. Where division(s) are used, divisional records will be used to decide divisional ranking.</p>
+        <p>Division winners will be awarded a playoff spot as the top ranked teams.</p>
+        <p>In Week 15, the 4 lowest ranked teams will play each other, and the 2 highest ranked teams will get a bye.</p>
+        <p>The winners from Week 14 will play the teams with byes in the semi-final championship in Week 16.</p>
+        <p>The winner of each semi-final championship will play each other in the EFFL Super Bowl during Week 17 of the NFL.</p>
+        <p>In all rounds the lowest ranked team will always play the highest ranked team remaining.</p>
 </div>
