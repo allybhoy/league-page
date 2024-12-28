@@ -135,16 +135,5 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
     <hr />
-    
-    <h2 class="sectionHeading" bind:this={one}>Section 1 League Overview</h2>
-    <div class="subBlock">
-        <p>Welcome to EFFL, the Earlston Fantasy Football League.</p>
-        <p>This is a 12-team league formed in 2013 in the <a href="http://www.redlionearlston.co.uk/">Red Lion Pub</a> (Earlston) by Chris Powell and Alastair Reid.</p>
-        <p>The league is designed to be fun with the winner receiving the Earlston Fantasy Football trophy.</p>
 
-        <p>The league is designed to be a competition between owners, but it not a cut-throat league where anything goes.</p>
-        <p>The rules described below are designed to act as a guideline for overall league play, and any disputes will be handled by the executive committee of the league.</p>
-        <p>Please remember that the overall goal of this league is to have fun and enjoy the game of football.</p>
-        <p>If you have any question or concerns, please do not hesitate to ask.</p>
-    </div>
 </div>
