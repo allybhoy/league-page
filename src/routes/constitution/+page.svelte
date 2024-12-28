@@ -162,17 +162,88 @@
         <p>The EFFL no longer charges league fees.</p>
         <p>Previously these covered the cost of the league and generated a small prize fund.</p>
     </div>
-<h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
-        <p>There are currently no league fees</p>
-    <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
-        <p>There are no monetary prizes</p>
-    
-    
-    
-
-    
-    <h2 class="sectionHeading" bind:this={three}>Section 3 League Setup and Competition</h2>
-        <p></p>
+    <h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
+            <p>There are currently no league fees</p>
+        <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
+            <p>There are no monetary prizes</p>   
+<h2 class="sectionHeading" bind:this={three}>Section 3 League Setup and Competition</h2>
+        <p>The EFFL will consist of 12 different teams.</p>
+        <p>The schedule for each team will consist of 14 games over 14 weeks.</p>
+        <p>Each team will play the other members of the league in weeks 1 through 11 (11 games).</p>
+        <p>The final 3 games are against 3 other teams in an allocated 4 team bracket.</p>
+        <p>In season 2024, the 4 team brackets were decided using the previous season draft position i.e. Bracket 1 (1,2,3,4) Bracket 2 (5,6,7,8) and Bracket 3 (9,10,11,12).</p>
+        <p>Here're the league breakdown and owner names for those who require it:</p>
+<table style="height: 1020px" width="755">
+<tbody>
+<tr>
+<td width="172">Team</td>
+<td width="153">Owner</td>
+<td width="138">Season started</td>
+</tr>
+<tr>
+<td width="172">Tranent Tigers</td>
+<td width="153">Nicky</td>
+<td width="138">2014</td>
+</tr>
+<tr>
+<td width="172">Kelso 187’s</td>
+<td width="153">Euan</td>
+<td width="138">2014</td>
+</tr>
+<tr>
+<td width="172">Hillview Patriots</td>
+<td width="153">Alan</td>
+<td width="138">2021</td>
+</tr>
+<tr>
+<td width="172">Kelsae Avengers</td>
+<td width="153">Stuart</td>
+<td width="138">2015</td>
+</tr>
+<tr>
+<td width="172">Tweedbank Pirates</td>
+<td width="153">Paul</td>
+<td width="138">2013 (hiatus 2020-2023)</td>
+</tr>
+<tr>
+<td width="172">Earlstonian Bohemians</td>
+<td width="153">Ally</td>
+<td width="138">2013</td>
+</tr>
+<tr>
+<td width="172">Kelso Kestrels</td>
+<td width="153">Ryan</td>
+<td width="138">2017</td>
+</tr>
+<tr>
+<td width="172">SanFranGordon 69ers</td>
+<td width="153">Richie</td>
+<td width="138">2013</td>
+</tr>
+<tr>
+<td width="172">Earlston Earthquakes</td>
+<td width="153">Cozy</td>
+<td width="138">2013</td>
+</tr>
+<tr>
+<td width="172">Fog on the Tyne</td>
+<td width="153">Stuart</td>
+<td width="138">2013</td>
+</tr>
+<tr>
+<td width="172">1st and N10</td>
+<td width="153">Duncan</td>
+<td width="138">2020</td>
+</tr>
+<tr>
+<td width="172">Nitten Pickaxe</td>
+<td width="153">Gav</td>
+<td width="138">2013</td>
+</tr>
+</tbody>
+</table>
+<p>The Jerman Jaguars, Pilton Panthers, Fife Fire, Oakbank Oddities, Teri Titans and Dodgy Touchdown franchises have been disbanded.</p>
+<p>The Mercy Flush, Jimmy's Jerman Jaguars and Ten Stane Nuts were renamed as Tweedbank Pirates, Heidetal Heat/Replacements and SanFran-Gordon 69ers respectively.</p>
     <h3 class="subSectionHeading" bind:this={threeOne}>3.1 Playoff Rankings</h3>
         <p></p>
     <h3 class="subSectionHeading" bind:this={threeTwo}>3.2 Playoffs</h3>
