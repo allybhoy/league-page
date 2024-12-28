@@ -3,7 +3,7 @@
     let one, oneOne, oneTwo;
     let two, twoOne, twoTwo;
     let three, threeOne, threeTwo;
-  //  let four, fourOne, fourTwo,fourThree,fourThreeOne fourFour,fourFive,fourFiveOne,fourFiveTwo,fourSix,fourSeven,fourEight,fourNine;
+    let four, fourOne, fourTwo,fourThree,fourThreeOne fourFour,fourFive,fourFiveOne,fourFiveTwo,fourSix,fourSeven,fourEight,fourNine;
   //  let five, fiveOne;
   //  let six,sixOne,sixTwo,sixThree;
 
@@ -108,6 +108,18 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: League Setup and Competition</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Playoff Rankings</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>3.2 Playoff(s)</h4>
-    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Rosters and Lineups</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 The Draft</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Free Agency</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>4.3 Trades</h4>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(fourThreeOne)}>4.3.1 Trade veto</h5>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFour)}>4.4 Injured Reserve</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFive)}>4.5 Starting Lineups</h4>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(fourFiveOne)}>4.5.1 Position Designations </h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(fourFiveTwo)}>4.5.2 Substitutions </h5>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSix)}>4.6 Bye Week Penalties</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSeven)}>4.7 Active Ownership Requirements</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourEight)}>4.8 Anti-Tank Rules</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourNine)}>4.9 Rescheduled Games</h4>
     
 </div>
