@@ -260,4 +260,183 @@
         <p>The winners from Week 14 will play the teams with byes in the semi-final championship in Week 16.</p>
         <p>The winner of each semi-final championship will play each other in the EFFL Super Bowl during Week 17 of the NFL.</p>
         <p>In all rounds the lowest ranked team will always play the highest ranked team remaining.</p>
+<h2 class="sectionHeading" bind:this={four}>Section 4 Rosters and Lineups</h2> 
+        <p>Rosters in EFFL consist of 15 active players from any NFL team plus 1 injured reserve spot and 2 practice squad spots. The maximum number of players in each position is as follows.
+        <tr>
+            <td>QB 3</td>
+            <td>RB 6</td>
+            <td>WR 7</td>
+            <td>TE 3</td>
+            <td>PK 2</td>
+            <td>DST 2</td>
+        </tr>
+No position minimums are set, but line-up criteria is a minimum requirement for active ownership. Only players from the active roster may be used as part of a team's starting lineup. Injury replacements (currently 3) are available on the league site, but these are used within the criteria supplied by Sleeper. It is the responsibility of the owner to ensure they have set these up correctly. Errors will not be rectified. It is imperative the owner notifies the commissioners of any potential issue before the game kicks off if they have any lineup issues.</p>
+        <h3 class="subSectionHeading" bind:this={fourOne}>4.1 The Draft</h3>
+            <p>The commissioner will designate a draft night each season. Owners are <strong>expected</strong> to attend the main draft in person, but we are able to accommodate remote drafting.
+
+The draft order for the main draft will be determined the previous season's final standings (worst to first) and playoff progression. The draft will be a serpentine order, where the person with the first pick in Round 1 will have the last pick in Round 2 and the first pick in Round 3. When it is the owner's turn to draft, they will have two minutes to make their pick. The commissioner will designate a timekeeper and when the timer expires, an automated pick will be made. Draft picks can be traded, but no owner or team can have fewer than 13 picks in the draft (and vice versa no more than 15).
+
+For the enjoyment of those who can attend the draft absentee owners are expected to autodraft or ask for a league nominated drafter to be supplied. It is the absentee owners responsibility to supply an effective draft plan.</p>
+        <h3 class="subSectionHeading" bind:this={fourTwo}>4.2 Free Agency</h3>
+            <p>WAIVERS
+
+The EFFL operates a FAAB (Free Agent Acquisition Budget) system for free agency. Each owner is allocated $100 for the season.
+
+In the Sleeper.com system, a waiver is commonly (but not always) a general term for all player adds and drops. The EFFL uses a blind bid waiver request system where at certain points of the NFL week access to players is restricted e.g. players are locked when they play in a game. Sleeper waivers start on Wednesday 0800 AM and are usually resolved at 0810 AM. Dropped players are on waivers for 1 day after any drop from an active roster.</p>
+        <h3 class="subSectionHeading" bind:this={fourThree}>4.3 Trades</h3>
+            <p>Trading is allowed and encouraged in EFFL, and may be conducted between any owner.
+
+If you are on the receiving end of a trade proposal, you will be notified of the offer on your team page and/or via email or by message. You will be able to click "View Trade" and review whether or not the terms of the trade are acceptable to you. If they are, click "Accept" and your trade will be immediately processed. Only commissioner and/or executive committee can reverse a trade where tanking or non-competitive play is suspected. The committee will not reverse trades due to stupidity or lack of knowledge.
+
+TRADE RULES
+
+The rules for trades in EFFL are as follows:
+
+There is no maximum number of trades that owners can complete in a season.
+
+Trades are processed immediately upon acceptance.
+
+Once your trade clears the review process, the trade will be completed and the players involved in the trade will switch rosters and be available to start for their new teams.
+
+To put a stop to some of the nefarious trade dealings a player who is traded cannot then be traded back to their original team UNLESS that player has been subsequently released to waivers since the first trade.
+
+TRADE DEADLINE
+
+For EFFL, the deadline to complete all trades is by the last game of Week 11.</p>
+            <h4 bind:this={fourThreeOne}>4.3.1 Trade Veto</h4>
+                <p>The executive committee reserves the right to reverse any trade that they deem inconsistent with league competition and fair-play standards. This veto will only be invoked in extreme cases where it is obvious that one owner is trying to give another owner an unfair advantage. The owners in question may offer reasons why the trade should be allowed, but the decision of the executive committee is final once it has been rendered. If the trade involves a committee member, they may offer reasons for the trade to be allowed will not have a say in the final committee decision.</p>
+        <h3 class="subSectionHeading" bind:this={fourFour}>4.4 Injured Reserve</h3>
+            <p>During the NFL season, a team may place a player on IR if they appear on their NFL teams Injured Reserve List. The owner may then utilise the blind bid waiver wire process to replace the player on their active roster.
+<tr>
+ 	<td> IR moves are free</td>
+ 	<td>No free agent who is listed as IR and then drafted or acquired via the waiver wire is eligible for the IR wire (i.e. a player on IR can’t be picked up and stashed on your IR…only active players on your roster are eligible)</td>
+ 	<td>A team may only have a maximum 3 players on the IR list at any time.</td>
+ 	<td>The official site for determining a player’s status will be NFL.com</td>
+ 	<td>A player on the IR list may not be traded to another team</td>
+</tr></p>
+<p>FREE AGENTS
+
+A free agent is a player who is not currently on a fantasy roster either because that player was not drafted, has not been added to a roster, or has been released by his previous owner and cleared waivers. You can add a free agent player at any time between Wed 0800 until Wed 0759 or the start of that player's game, whichever occurs first. Free Agents dropped during this period and who haven't played in a game are on waivers for 24hrs.
+
+UNDROPPABLE PLAYERS
+
+In order to establish a competitive and balanced EFFL, we use the experts at NFL.com to maintain a regularly updated list of players who cannot be dropped from your roster once they have been acquired. Players on this list are still eligible to be benched or traded, but not dropped or put on waivers. This feature promotes a fair game for all fantasy users by preventing actions that could compromise the integrity of the game.
+
+***There are currently NO UNDROPPABLE players in the EFFL***</p>
+        <h3 class="subSectionHeading" bind:this={fourFive}>4.5 Starting Lineups</h3>
+            <p>Starting lineups in EFFL will consist as follows:
+<tr>
+ 	<td>1 quarterback</td>
+ 	<td>1 running back</td>
+ 	<td>2 wide receivers</td>
+ 	<td>1 tight end</td>
+ 	<td>1 flex (running back, wide receiver)</td>
+ 	<td>1 super-flex (running back, wide receiver or tight end)</td>
+ 	<td>1 place kicker</td>
+ 	<td>1 defense / special teams</td>
+</tr>
+Owners must submit a competitive starting lineup each week. Failure to do so will result in the executive committee taking temporary ownership of the team.</p>
+            <h4 bind:this={fourFiveOne}>4.5.1 Position Designation</h4>
+                <p>From time to time, the NFL may change their designation of a particular player from one position to another or a player may line up in multiple positions throughout the game. For example, a wide receiver may be switched to a tight end and vice versa. For the purposes of EFFL we will use designations as assigned by the league host site only. Players may only start and score points based on these designations. See the League Scoring section for more details.</p>
+            <h4 bind:this={fourFiveTwo}>4.5.2 Substitutions</h4>
+                <div class="subBlock">
+                <p>It is acceptable for owners before a game to use the Sleeper auto-subs setting for up to 3 players. It is the owners responsibility to understand the limitations of this setting and its valid use. Any errors caused by malfunctions of the underlying system or software (unless auto-fixed by Sleeper) will only be rectified where proof of the malfunction can be provided to the commissioner or committee.</p>
+                </div>
+        <h3 class="subSectionHeading" bind:this={fourSix}>4.6 Bye Week Penalties</h3>
+            <p>Any owner who starts a player that is on a bye week or officially designated as OUT, regardless of intention, the owner will be forced to drop that player from their active roster. The player will become a free agent and will be eligible to be added to any roster, including the original owner, during the normal free agent policy. It is each owner's responsibility to submit a valid lineup each week and no exceptions will be made.</p>
+        <h3 class="subSectionHeading" bind:this={fourSeven}>4.7 Active Ownership Requirements</h3>
+            <p>Each owner is expected to actively manage their team each week, even if they are eliminated from any playoff consideration. Owners must submit a competitive lineup each week. If an owner does not submit a lineup for two consecutive weeks, the executive committee will have the right to assume control of the team and manage it for the rest of the season. A committee run team will not make any trades and is only allowed to add or drop players if the team cannot field a legal starting lineup due to injury or bye weeks. Any prize money won by a committee-run team will be distributed evenly to the other active owners in the league.</p>
+        <h3 class="subSectionHeading" bind:this={fourEight}>4.8 Anti-Tank Rules</h3>
+            <p>EFFL is a competitive league, created for the league owners to have fun playing fantasy football. While the competition may be fierce, this is not considered a cut-throat league. In the spirit of competition and league fairness, owners are not allowed to intentionally create a legal starting lineup that gives the opposing team a clear advantage. The executive committee reserves the right to step in and adjust the starting lineup of a team that is clearly trying to intentionally lose a game. If the committee must adjust a team's lineup in two consecutive weeks or for three or more weeks in any one season, the team will be considered inactive and the executive committee may assume ownership of the team as detailed in the active ownership requirements section.</p>
+        <h3 class="subSectionHeading" bind:this={fourNine}>4.9 Rescheduled Games</h3>
+            <p>In the event of the NFL cancelling a scheduled game(s) before Wednesday 7pm the game and all non IR-COVID players will be treated as on a bye. This means GMs will need to find suitable alternatives WITHOUT the benefit of IR or taxi. Anything after that can be treated as unexpected and you gain the benefit of IR and taxi spots.
+
+In the event of an unanticipated late cancellation then all players participating will be awarded the median score of the respective position pregame top ranked players (fantasy pros consensus). (Top 20 qb, 48 rb, 48 wr, 20 te, 16 pk, 16 DST).
+
+Where a possible late cancellation may occur GMs have the option to place players on temp-IR (IR and/or taxi) and start alternate players in earlier games. However, GMs using this option cannot take advantage of the median scoring option. All rosters must be balanced to roster limits by 11am Tuesday morning.
+
+Where a player plays in 2 or more games in a given league week GMs MUST notify the commissioner of the game in which they wish to accrue points. No notification will result in a default of the first game being counted. If the player is not in a set lineup he will not be able to start for that given week.</p>
+    <h2 class="sectionHeading" bind:this={five}>Section 5 Scoring</h2> 
+            <p>Scoring in EFFL will be computed to two decimal places. This will allow points to be awarded or deducted for every positive or negative yard and will dramatically reduce the chance of a tie game. Players are awarded fantasy points for each week that they are included in the team's starting lineup. Players may only start at one position in any given week and will only be awarded points as described by their position distinction below.
+
+<strong>OFFENSE</strong>
+
+<strong>Passing Yards: 1 point per 25 yards passing</strong>
+
+<strong>Passing Touchdowns: 4 points</strong>
+
+<strong>Interceptions: -2 points</strong>
+
+<strong>Rushing Yards: 1 point per 10 yards</strong>
+
+Rushing Attempts: 0.1 per attempt
+
+<strong>Rushing Touchdowns: 6 points</strong>
+
+Receptions: 1 point per reception
+
+<strong>Receiving Yards: 1 point per 10 yards</strong>
+
+<strong>Receiving Touchdowns: 6 points</strong>
+
+<strong>Fumble Recovered for a Touchdown: 6 points</strong>
+
+<strong>2-Point Conversions: 2 points</strong>
+
+<strong>Fumbles Lost: -2 points</strong>
+
+<strong>KICKING</strong>
+
+<strong>PAT Made: 1 point</strong>
+
+<strong>FG Made: 0.1 points per yard</strong>
+
+<strong>DEFENSE TEAM</strong>
+
+Opponent Punts: 1
+
+Opponent Fumble Recoveries (Offense/Special Teams): 2
+
+Interceptions Caught: 2
+
+Sacks: 0.5
+
+Blocked Field Goals/Punts: 2
+
+Blocked Extra Points: 1
+
+Safeties (2 and 1 pt): 2 and 1
+
+Opponent 4th Down Stops: 1
+
+Defensive and Special Team TDs: 6
+
+Defensive Conversion returns: 2
+
+Offensive and Special Team Points Against: 12 points -0.5 for each point allowed
+
+<strong>GENERAL SCORING SETTINGS</strong>
+
+<strong>Use Fractional Points: Yes</strong>
+
+<strong>Use Negative Points: Yes</strong>
+
+<strong>HEAD-TO-HEAD SCORING FORMAT</strong>
+
+<strong>The EFFL features head-to-head scoring. Much like the games that take place across the NFL each Sunday, your team will be matched up against another team within your league. Similar to an NFL game being decided on the field with the team scoring the most points earning a win, your fantasy matchup behaves accordingly.</strong>
+
+<strong>Your team will earn points based on the actual statistics and results played out in the NFL that week. If your team earns more points than your opponent, you earn a win in the league standings. Less points? Take a loss. And if your game ends in a tie, you guessed it - a tie in the overall standings. Ties in postseason play are resolved by playoff seeding order i.e. the highest seed advances.</strong></p>
+        <h3 class="subSectionHeading" bind:this={fiveOne}>5.1 Points Total and Final Score</h3>
+            <p>EFFL will be hosted on <a href="https://sleeper.com/leagues/1136405911293083648">https://sleeper.com/leagues/1136405911293083648</a>. Head to head scoring will be determined each week by the stats from that website. From time to time, the NFL may go back and change the scoring of certain plays later in the week. However, to maintain a sense of fairness and avoid confusion in the league, all head-to-head scoring using Sleeper. Any scoring changes that come out from the NFL after that time will not be applied to the league.</p>
+   
+    <h2 class="sectionHeading" bind:this={six}>Section 6 Offseason</h2>
+            <p>Owners are strongly encouraged to maintain their current contact information. A connection to WhatsApp league chat is usually enough but it’s also helpful to ensure your email on Sleeper is up to date. You should expect to be contacted in July with information about next year's draft. Thanks and welcome to EFFL!</p>
+        <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
+            <p>Managers who fail to adhere to the rules above and spirit of the league will be removed and replaced. League fees will be refunded, but time involved with the league will not be reimbursed under any circumstances.</p>
+    
+        <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
+            <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a long term commitment and will be very active within the league.</p>
+    
+        <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
+            <p>In the event that a manager chooses to quit the league or is removed by a commissioner, an incoming manager may be offered reduced or waived fees</p>
 </div>
