@@ -244,14 +244,11 @@
         <p>Teams (where necessary) will be ranked based on the following criteria.</p>
         <p>If more than one team needs to be ranked then the criteria can be used to eliminate teams into brackets.</p>
         <p>This will enable further testing of the criteria in isolation with the sole purpose of creating a final ranking for the tied teams:</p>
-        <p>    <tr>
- 	            <td>Overall Winning Percentage</td>
- 	            <td>Division Winning Percentage (in division only)</td>
- 	            <td>Total Points Scored</td>
- 	            <td>Head to Head Result</td>
- 	            <td>Total Offensive Points</td>
-            </tr>
-        </p>
+            <p>Overall Winning Percentage</p>
+ 	        <p>Division Winning Percentage (in division only)</p>
+ 	        <p>Total Points Scored</p>
+ 	        <p>Head to Head Result</p>
+ 	        <p>Total Offensive Points</p>
     <h3 class="subSectionHeading" bind:this={threeTwo}>3.2 Playoffs</h3>
         <p>After the completion of the regular season, six teams will make the playoffs.</p>
         <p>These are selected by order of record. Where division(s) are used, divisional records will be used to decide divisional ranking.</p>
@@ -262,14 +259,12 @@
         <p>In all rounds the lowest ranked team will always play the highest ranked team remaining.</p>
 <h2 class="sectionHeading" bind:this={four}>Section 4 Rosters and Lineups</h2> 
         <p>Rosters in EFFL consist of 15 active players from any NFL team plus 1 injured reserve spot and 2 practice squad spots. The maximum number of players in each position is as follows.
-        <tr>
-            <td>QB 3</td>
-            <td>RB 6</td>
-            <td>WR 7</td>
-            <td>TE 3</td>
-            <td>PK 2</td>
-            <td>DST 2</td>
-        </tr>
+        <tr><td>QB 3</td></tr>
+        <tr><td>RB 6</td></tr>
+        <tr><td>WR 7</td></tr>
+        <tr><td>TE 3</td></tr>
+        <tr><td>PK 2</td></tr>
+        <tr><td>DST 2</td></tr>
 No position minimums are set, but line-up criteria is a minimum requirement for active ownership. Only players from the active roster may be used as part of a team's starting lineup. Injury replacements (currently 3) are available on the league site, but these are used within the criteria supplied by Sleeper. It is the responsibility of the owner to ensure they have set these up correctly. Errors will not be rectified. It is imperative the owner notifies the commissioners of any potential issue before the game kicks off if they have any lineup issues.</p>
         <h3 class="subSectionHeading" bind:this={fourOne}>4.1 The Draft</h3>
             <p>The commissioner will designate a draft night each season. Owners are <strong>expected</strong> to attend the main draft in person, but we are able to accommodate remote drafting.
@@ -307,13 +302,11 @@ For EFFL, the deadline to complete all trades is by the last game of Week 11.</p
                 <p>The executive committee reserves the right to reverse any trade that they deem inconsistent with league competition and fair-play standards. This veto will only be invoked in extreme cases where it is obvious that one owner is trying to give another owner an unfair advantage. The owners in question may offer reasons why the trade should be allowed, but the decision of the executive committee is final once it has been rendered. If the trade involves a committee member, they may offer reasons for the trade to be allowed will not have a say in the final committee decision.</p>
         <h3 class="subSectionHeading" bind:this={fourFour}>4.4 Injured Reserve</h3>
             <p>During the NFL season, a team may place a player on IR if they appear on their NFL teams Injured Reserve List. The owner may then utilise the blind bid waiver wire process to replace the player on their active roster.
-<tr>
- 	<td> IR moves are free</td>
- 	<td>No free agent who is listed as IR and then drafted or acquired via the waiver wire is eligible for the IR wire (i.e. a player on IR can’t be picked up and stashed on your IR…only active players on your roster are eligible)</td>
- 	<td>A team may only have a maximum 3 players on the IR list at any time.</td>
- 	<td>The official site for determining a player’s status will be NFL.com</td>
- 	<td>A player on the IR list may not be traded to another team</td>
-</tr></p>
+<tr><td> IR moves are free</td></tr>
+<tr><td>No free agent who is listed as IR and then drafted or acquired via the waiver wire is eligible for the IR wire (i.e. a player on IR can’t be picked up and stashed on your IR…only active players on your roster are eligible)</td></tr>
+<tr><td>A team may only have a maximum 3 players on the IR list at any time.</td></tr>
+<tr><td>The official site for determining a player’s status will be NFL.com</td></tr>
+<tr><td>A player on the IR list may not be traded to another team</td></tr></p>
 <p>FREE AGENTS
 
 A free agent is a player who is not currently on a fantasy roster either because that player was not drafted, has not been added to a roster, or has been released by his previous owner and cleared waivers. You can add a free agent player at any time between Wed 0800 until Wed 0759 or the start of that player's game, whichever occurs first. Free Agents dropped during this period and who haven't played in a game are on waivers for 24hrs.
@@ -325,16 +318,14 @@ In order to establish a competitive and balanced EFFL, we use the experts at NFL
 ***There are currently NO UNDROPPABLE players in the EFFL***</p>
         <h3 class="subSectionHeading" bind:this={fourFive}>4.5 Starting Lineups</h3>
             <p>Starting lineups in EFFL will consist as follows:
-<tr>
- 	<td>1 quarterback</td>
- 	<td>1 running back</td>
- 	<td>2 wide receivers</td>
- 	<td>1 tight end</td>
- 	<td>1 flex (running back, wide receiver)</td>
- 	<td>1 super-flex (running back, wide receiver or tight end)</td>
- 	<td>1 place kicker</td>
- 	<td>1 defense / special teams</td>
-</tr>
+    <tr><td>1 quarterback</td></tr>
+ 	<tr><td>1 running back</td></tr>
+ 	<tr><td>2 wide receivers</td></tr>
+ 	<tr><td>1 tight end</td></tr>
+ 	<tr><td>1 flex (running back, wide receiver)</td></tr>
+ 	<tr><td>1 super-flex (running back, wide receiver or tight end)</td></tr>
+ 	<tr><td>1 place kicker</td></tr>
+ 	<tr><td>1 defense / special teams</td></tr>
 Owners must submit a competitive starting lineup each week. Failure to do so will result in the executive committee taking temporary ownership of the team.</p>
             <h4 bind:this={fourFiveOne}>4.5.1 Position Designation</h4>
                 <p>From time to time, the NFL may change their designation of a particular player from one position to another or a player may line up in multiple positions throughout the game. For example, a wide receiver may be switched to a tight end and vice versa. For the purposes of EFFL we will use designations as assigned by the league host site only. Players may only start and score points based on these designations. See the League Scoring section for more details.</p>
