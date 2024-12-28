@@ -144,7 +144,7 @@
     <hr />
     
     <h2 class="sectionHeading" bind:this={one}>Section 1 League Overview</h2>
-
+    <div class="subBlock">
         <p>Welcome to EFFL, the Earlston Fantasy Football League.</p>
         <p>This is a 12-team league formed in 2013 in the <a href="http://www.redlionearlston.co.uk/">Red Lion Pub</a> (Earlston) by Chris Powell and Alastair Reid.</p>
         <p>The league is designed to be fun with the winner receiving the Earlston Fantasy Football trophy.</p>
@@ -153,8 +153,10 @@
         <p>The rules described below are designed to act as a guideline for overall league play, and any disputes will be handled by the executive committee of the league.</p>
         <p>Please remember that the overall goal of this league is to have fun and enjoy the game of football.</p>
         <p>If you have any question or concerns, please do not hesitate to ask.</p>
+    </div>
 
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Executive Committee</h3>
+    <div class="subBlock">
         <p>The executive committee for EFFL consists of:</p>
             <ul>
  	            <li>Commissioner Alastair Reid</li>
@@ -164,17 +166,20 @@
         <p>If a committee member is involved in the dispute, that member will excuse themselves from the decision process.</p>
         <p>While all owners are encouraged to submit suggestions to the committee, the committee's decision on all matters is final.</p>
         <p>The executive committee will also have access to independent arbitration from external fantasy football commissioners known to the commissioner.</p>
-    
+    </div>
+
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Living Constitution</h3>
-    
+    <div class="subBlock">
         <p>It is important to note that this is a living, breathing constitution that will change and evolve over the lifetime of this league.</p>
         <p>Changes will happen between seasons as often as possible and will be effective from that point moving forward.</p>
         <p>If you have suggestions for changes, please submit them to one of the executive committee members.</p>
-    
+    </div>
+
     <h2 class="sectionHeading" bind:this={Two}>Section 2 League Financing</h2>    
+    <div class="subBlock">
         <p>The EFFL no longer charges league fees.</p>
         <p>Previously these covered the cost of the league and generated a small prize fund.</p>
-
+    </div>
     <h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
     <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
 
