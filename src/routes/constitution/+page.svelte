@@ -244,12 +244,12 @@
         <p>Teams (where necessary) will be ranked based on the following criteria.</p>
         <p>If more than one team needs to be ranked then the criteria can be used to eliminate teams into brackets.</p>
         <p>This will enable further testing of the criteria in isolation with the sole purpose of creating a final ranking for the tied teams:</p>
-        <p>    <ol>
- 	            <li>Overall Winning Percentage</li>
- 	            <li>Division Winning Percentage (in division only)</li>
- 	            <li>Total Points Scored</li>
- 	            <li>Head to Head Result</li>
- 	            <li>Total Offensive Points</li>
-            </ol>
+        <p>    <tr>
+ 	            <td>Overall Winning Percentage</td>
+ 	            <td>Division Winning Percentage (in division only)</td>
+ 	            <td>Total Points Scored</td>
+ 	            <td>Head to Head Result</td>
+ 	            <td>Total Offensive Points</td>
+            </tr>
         </p>
 </div>
