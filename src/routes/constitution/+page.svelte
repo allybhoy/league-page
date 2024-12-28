@@ -158,13 +158,4 @@
         <p>Changes will happen between seasons as often as possible and will be effective from that point moving forward.</p>
         <p>If you have suggestions for changes, please submit them to one of the executive committee members.</p>
 
-<h2 class="sectionHeading" bind:this={Two}>Section 2 League Financing</h2>    
-    <div class="subBlock">
-        <p>The EFFL no longer charges league fees.</p>
-        <p>Previously these covered the cost of the league and generated a small prize fund.</p>
-    </div>
-    <h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Fee</h3>
-        <p>There are currently no league fees</p>
-    <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Prize Money</h3>
-        <p>There are no monetary prizes</p>
 </div>
