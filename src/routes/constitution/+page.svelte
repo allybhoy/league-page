@@ -383,9 +383,9 @@ Where a player plays in 2 or more games in a given league week GMs MUST notify t
 <p><strong>Use Negative Points: Yes</strong></p>
 <p><strong>HEAD-TO-HEAD SCORING FORMAT</strong></p>
 <p>
-<strong>The EFFL features head-to-head scoring. Much like the games that take place across the NFL each Sunday, your team will be matched up against another team within your league. Similar to an NFL game being decided on the field with the team scoring the most points earning a win, your fantasy matchup behaves accordingly.</strong>
+The EFFL features head-to-head scoring. Much like the games that take place across the NFL each Sunday, your team will be matched up against another team within your league. Similar to an NFL game being decided on the field with the team scoring the most points earning a win, your fantasy matchup behaves accordingly.
 
-<strong>Your team will earn points based on the actual statistics and results played out in the NFL that week. If your team earns more points than your opponent, you earn a win in the league standings. Less points? Take a loss. And if your game ends in a tie, you guessed it - a tie in the overall standings. Ties in postseason play are resolved by playoff seeding order i.e. the highest seed advances.</strong></p>
+Your team will earn points based on the actual statistics and results played out in the NFL that week. If your team earns more points than your opponent, you earn a win in the league standings. Less points? Take a loss. And if your game ends in a tie, you guessed it - a tie in the overall standings. Ties in postseason play are resolved by playoff seeding order i.e. the highest seed advances.</p>
         <h3 class="subSectionHeading" bind:this={fiveOne}>5.1 Points Total and Final Score</h3>
             <p>EFFL will be hosted on <a href="https://sleeper.com/leagues/1136405911293083648">https://sleeper.com/leagues/1136405911293083648</a>. Head to head scoring will be determined each week by the stats from that website. From time to time, the NFL may go back and change the scoring of certain plays later in the week. However, to maintain a sense of fairness and avoid confusion in the league, all head-to-head scoring using Sleeper. Any scoring changes that come out from the NFL after that time will not be applied to the league.</p>
    
