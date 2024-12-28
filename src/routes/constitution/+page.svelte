@@ -350,70 +350,39 @@ Where a player plays in 2 or more games in a given league week GMs MUST notify t
     <h2 class="sectionHeading" bind:this={five}>Section 5 Scoring</h2> 
             <p>Scoring in EFFL will be computed to two decimal places. This will allow points to be awarded or deducted for every positive or negative yard and will dramatically reduce the chance of a tie game. Players are awarded fantasy points for each week that they are included in the team's starting lineup. Players may only start at one position in any given week and will only be awarded points as described by their position distinction below.
 
-<strong>OFFENSE</strong>
-
-<strong>Passing Yards: 1 point per 25 yards passing</strong>
-
-<strong>Passing Touchdowns: 4 points</strong>
-
-<strong>Interceptions: -2 points</strong>
-
-<strong>Rushing Yards: 1 point per 10 yards</strong>
-
-Rushing Attempts: 0.1 per attempt
-
-<strong>Rushing Touchdowns: 6 points</strong>
-
-Receptions: 1 point per reception
-
-<strong>Receiving Yards: 1 point per 10 yards</strong>
-
-<strong>Receiving Touchdowns: 6 points</strong>
-
-<strong>Fumble Recovered for a Touchdown: 6 points</strong>
-
-<strong>2-Point Conversions: 2 points</strong>
-
-<strong>Fumbles Lost: -2 points</strong>
-
-<strong>KICKING</strong>
-
-<strong>PAT Made: 1 point</strong>
-
-<strong>FG Made: 0.1 points per yard</strong>
-
-<strong>DEFENSE TEAM</strong>
-
-Opponent Punts: 1
-
-Opponent Fumble Recoveries (Offense/Special Teams): 2
-
-Interceptions Caught: 2
-
-Sacks: 0.5
-
-Blocked Field Goals/Punts: 2
-
-Blocked Extra Points: 1
-
-Safeties (2 and 1 pt): 2 and 1
-
-Opponent 4th Down Stops: 1
-
-Defensive and Special Team TDs: 6
-
-Defensive Conversion returns: 2
-
-Offensive and Special Team Points Against: 12 points -0.5 for each point allowed
-
-<strong>GENERAL SCORING SETTINGS</strong>
-
-<strong>Use Fractional Points: Yes</strong>
-
-<strong>Use Negative Points: Yes</strong>
-
-<strong>HEAD-TO-HEAD SCORING FORMAT</strong>
-
+<tr><td><strong>OFFENSE</strong></td></tr>
+<tr><td>Passing Yards: 1 point per 25 yards passing</td></tr>
+<tr><td>Passing Touchdowns: 4 points</td></tr>
+<tr><td>Interceptions: -2 points</td></tr>
+<tr><td>Rushing Yards: 1 point per 10 yards</td></tr>
+<tr><td>Rushing Attempts: 0.1 per attempt</td></tr>
+<tr><td>Rushing Touchdowns: 6 points</td></tr>
+<tr><td>Receptions: 1 point per reception</td></tr>
+<tr><td>Receiving Yards: 1 point per 10 yards</td></tr>
+<tr><td>Receiving Touchdowns: 6 points</td></tr>
+<tr><td>Fumble Recovered for a Touchdown: 6 points</td></tr>
+<tr><td>2-Point Conversions: 2 points</td></tr>
+<tr><td>Fumbles Lost: -2 points</td></tr>
+<tr><td><strong>KICKING</strong></td></tr>
+<tr><td>PAT Made: 1 point</td></tr>
+<tr><td>FG Made: 0.1 points per yard</td></tr>
+<tr><td><strong>DEFENSE TEAM</strong></td></tr>
+<tr><td>Opponent Punts: 1</td></tr>
+<tr><td>Opponent Fumble Recoveries (Offense/Special Teams): 2</td></tr>
+<tr><td>Interceptions Caught: 2</td></tr>
+<tr><td>Sacks: 0.5</td></tr>
+<tr><td>Blocked Field Goals/Punts: 2</td></tr>
+<tr><td>Blocked Extra Points: 1</td></tr>
+<tr><td>Safeties (2 and 1 pt): 2 and 1</td></tr>
+<tr><td>Opponent 4th Down Stops: 1</td></tr>
+<tr><td>Defensive and Special Team TDs: 6</td></tr>
+<tr><td>Defensive Conversion returns: 2</td></tr>
+<tr><td>Offensive and Special Team Points Against: 12 points -0.5 for each point allowed</td></tr>
+<p><strong>GENERAL SCORING SETTINGS</strong></p>
+<p><strong>Use Fractional Points: Yes</strong></p>
+<p><strong>Use Negative Points: Yes</strong></p>
+<p><strong>HEAD-TO-HEAD SCORING FORMAT</strong></p>
+<p>
 <strong>The EFFL features head-to-head scoring. Much like the games that take place across the NFL each Sunday, your team will be matched up against another team within your league. Similar to an NFL game being decided on the field with the team scoring the most points earning a win, your fantasy matchup behaves accordingly.</strong>
 
 <strong>Your team will earn points based on the actual statistics and results played out in the NFL that week. If your team earns more points than your opponent, you earn a win in the league standings. Less points? Take a loss. And if your game ends in a tie, you guessed it - a tie in the overall standings. Ties in postseason play are resolved by playoff seeding order i.e. the highest seed advances.</strong></p>
